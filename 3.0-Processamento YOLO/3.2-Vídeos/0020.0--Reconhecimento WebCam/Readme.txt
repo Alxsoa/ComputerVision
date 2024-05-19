@@ -1,0 +1,10 @@
+https://inside-machinelearning.com/en/bounding-boxes-python-function/
+https://www.labellerr.com/blog/a-quick-guide-for-object-detection-using-yolov8/
+https://www.datature.io/blog/get-started-with-training-a-yolov8-object-detection-model
+https://towardsdatascience.com/yolo-object-detection-with-opencv-and-python-21e50ac599e9
+https://www.freecodecamp.org/news/how-to-detect-objects-in-images-using-yolov8/
+https://docs.ultralytics.com/usage/python/
+https://stackoverflow.com/questions/76213454/hide-ultralytics-yolov8-model-predict-output-from-terminal
+https://docs.ultralytics.com/modes/predict/
+https://dipankarmedh1.medium.com/real-time-object-detection-with-yolo-and-webcam-enhancing-your-computer-vision-skills-861b97c78993
+https://towardsdatascience.com/yolo-object-detection-with-opencv-and-python-21e50ac599e9
