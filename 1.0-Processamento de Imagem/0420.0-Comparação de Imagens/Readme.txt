@@ -1,0 +1,12 @@
+https://medium.com/@developerRegmi/image-comparison-using-opencv-spotting-the-differences-e70b05839aa4
+https://pyimagesearch.com/2014/09/15/python-compare-two-images/
+https://ourcodeworld.com/articles/read/991/how-to-calculate-the-structural-similarity-index-ssim-between-two-images-with-python
+https://www.tutorialspoint.com/how-to-compare-two-images-in-opencv-python#
+https://pyimagesearch.com/2014/09/15/python-compare-two-images/
+https://ourcodeworld.com/articles/read/991/how-to-calculate-the-structural-similarity-index-ssim-between-two-images-with-python
+https://theailearner.com/tag/cv2-comparehist/
+https://docs.opencv.org/3.4/d8/dc8/tutorial_histogram_comparison.html
+https://www.tutorialspoint.com/how-to-normalize-an-image-in-opencv-python
+https://www.tutorialspoint.com/how-to-compare-histograms-of-two-images-using-opencv-python
+https://pypi.org/project/image-similarity-measures/
+https://stackoverflow.com/questions/56183201/detect-and-visualize-differences-between-two-images-with-opencv-python

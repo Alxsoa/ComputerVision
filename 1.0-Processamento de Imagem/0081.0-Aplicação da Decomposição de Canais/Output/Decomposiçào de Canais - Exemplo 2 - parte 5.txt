@@ -1,0 +1,4 @@
+          Maximo       Media  Mediana  Percentil_90  Percentil_95  Percentil_99
+Vermelho     255  173.826854    183.0         239.0         245.0         254.0
+Verde        249  121.352229    118.0         184.0         192.0         203.0
+Azul         242  131.624600    131.0         200.0         207.0         216.0

@@ -1,0 +1,13 @@
+https://towardsdatascience.com/image-segmentation-using-pythons-scikit-image-module-533a61ecc980
+https://www.analyticsvidhya.com/blog/2021/09/image-segmentation-algorithms-with-implementation-in-python/
+https://www.geeksforgeeks.org/image-segmentation-using-pythons-scikit-image-module/
+https://scikit-image.org/skimage-tutorials/lectures/4_segmentation.html
+https://medium.com/kitepython/image-segmentation-with-python-213b3b016e7d
+https://betterprogramming.pub/image-segmentation-python-7a838a464a84
+https://realpython.com/python-opencv-color-spaces/
+https://neptune.ai/blog/image-processing-python
+https://levelup.gitconnected.com/image-segmentation-an-overview-on-how-its-algorithms-identify-objects-in-an-image-925cdf6bd03
+https://docs.opencv.org/3.4/d3/db4/tutorial_py_watershed.html
+https://data-flair.training/blogs/image-segmentation-machine-learning/
+https://encord.com/blog/image-segmentation-for-computer-vision-best-practice-guide/
+https://datagen.tech/guides/image-annotation/image-segmentation/#

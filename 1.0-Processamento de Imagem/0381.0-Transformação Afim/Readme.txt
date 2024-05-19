@@ -1,0 +1,10 @@
+https://docs.opencv.org/3.4/d4/d61/tutorial_warp_affine.html
+https://scikit-image.org/docs/dev/auto_examples/transform/plot_piecewise_affine.html
+https://learnopencv.com/warp-one-triangle-to-another-using-opencv-c-python/
+https://stackabuse.com/affine-image-transformations-in-python-with-numpy-pillow-and-opencv/
+https://scikit-image.org/docs/stable/auto_examples/transform/plot_piecewise_affine.html#sphx-glr-auto-examples-transform-plot-piecewise-affine-py
+https://theailearner.com/tag/cv2-getaffinetransform/
+https://learnopencv.com/warp-one-triangle-to-another-using-opencv-c-python/
+https://thinkinfi.medium.com/warp-perspective-and-transform-opencv-python-fbfd12560158
+https://theailearner.com/tag/cv2-warpperspective/
+https://thinkinfi.com/warp-perspective-opencv/

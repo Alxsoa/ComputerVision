@@ -1,0 +1,155 @@
+INTRODUCAO
+https://www.geeksforgeeks.org/introduction-to-numpy/
+https://www.oreilly.com/library/view/python-for-data/9781449323592/ch04.html
+https://towardsdatascience.com/15-numpy-functionalities-that-every-data-scientist-must-know-f6d69072df68
+https://saturncloud.io/blog/converting-numpy-arrays-to-images-using-opencv-and-pil/  #por no exemplo
+http://vision.deis.unibo.it/~smatt/DIDATTICA/Sistemi_Digitali_M/PDF/Introduction_to_NumPy_and_OpenCV.pdf  # muito bom
+
+Numpy para Visao computacional
+https://www.suntos.com.np/computer-vision-for-robotics/understanding-numpy-for-computer-vision.html#manipulation
+https://towardsdatascience.com/getting-started-with-numpy-and-opencv-for-computer-vision-555f88536f68
+
+np.frombuffer
+
+np.convolve
+
+np.concatenate
+https://answers.opencv.org/question/175912/how-to-display-multiple-images-in-one-window/
+
+np.zeros_like
+
+np.lib.pad
+
+np.convolve
+
+
+np.hstack
+https://numpy.org/doc/stable/reference/generated/numpy.hstack.html
+https://www.geeksforgeeks.org/numpy-hstack-in-python/
+
+np.vstack
+https://numpy.org/doc/stable/reference/generated/numpy.vstack.html
+https://www.geeksforgeeks.org/numpy-vstack-in-python/
+
+np.split
+https://numpy.org/doc/stable/reference/generated/numpy.split.html
+https://www.geeksforgeeks.org/numpy-string-operations-split-function/
+
+np.flipr
+https://numpy.org/doc/stable/reference/generated/numpy.fliplr.html
+https://www.geeksforgeeks.org/numpy-fliplr-python/
+
+np.diag
+https://numpy.org/doc/stable/reference/generated/numpy.diag.html
+https://www.geeksforgeeks.org/numpy-diag-python/
+
+np.copy
+https://numpy.org/doc/stable/reference/generated/numpy.copy.html
+
+np.zeros
+https://numpy.org/doc/stable/reference/generated/numpy.zeros.html
+
+np.ones
+https://numpy.org/doc/stable/reference/generated/numpy.ones.html
+
+np.eye
+https://www.geeksforgeeks.org/numpy-eye-python/
+https://numpy.org/devdocs/reference/generated/numpy.eye.html
+
+np.array
+https://numpy.org/doc/stable/reference/generated/numpy.array.html
+https://www.w3schools.com/python/numpy/numpy_creating_arrays.asp
+
+np.resize
+https://www.geeksforgeeks.org/python-numpy-numpy-resize/
+https://numpy.org/doc/stable/reference/generated/numpy.resize.html
+
+np.reshape
+https://numpy.org/doc/stable/reference/generated/numpy.reshape.html
+https://www.w3schools.com/python/numpy/numpy_array_reshape.asp
+
+
+np.full
+https://www.geeksforgeeks.org/numpy-full-python/
+https://numpy.org/doc/stable/reference/generated/numpy.full.html
+
+np.random
+
+np.arrange
+
+np.stack
+https://numpy.org/doc/stable/reference/generated/numpy.stack.html
+https://www.geeksforgeeks.org/numpy-stack-in-python/
+
+np.flip
+https://numpy.org/doc/stable/reference/generated/numpy.flip.html
+https://www.geeksforgeeks.org/python-reverse-a-numpy-array/
+
+np.all
+https://www.geeksforgeeks.org/numpy-all-in-python/
+https://numpy.org/doc/stable/reference/generated/numpy.all.html
+
+np.ravel
+https://www.geeksforgeeks.org/numpy-ravel-python/
+https://numpy.org/doc/stable/reference/generated/numpy.ravel.html
+
+np.flatten
+https://numpy.org/doc/stable/reference/generated/numpy.ndarray.flatten.html
+https://www.geeksforgeeks.org/numpy-ndarray-flatten-function-python/
+
+np.binary_repr
+https://numpy.org/doc/stable/reference/generated/numpy.binary_repr.html
+https://www.geeksforgeeks.org/numpy-binary_repr-in-python/
+
+np.base_repr
+https://numpy.org/doc/stable/reference/generated/numpy.base_repr.html
+
+np.bitwise_or
+https://www.geeksforgeeks.org/numpy-bitwise_or-in-python/
+https://numpy.org/doc/stable/reference/generated/numpy.bitwise_or.html
+
+np.bitwise_and
+https://numpy.org/doc/stable/reference/generated/numpy.bitwise_and.htm
+https://www.geeksforgeeks.org/numpy-bitwise_and-in-python/
+
+np.bitwise_xor
+https://numpy.org/doc/stable/reference/generated/numpy.bitwise_xor.html
+https://www.geeksforgeeks.org/numpy-bitwise_xor-in-python/
+
+np.bitwise_not
+https://numpy.org/doc/stable/reference/generated/numpy.invert.html
+
+np.meshgrid
+
+np.repeat
+import cv2
+import numpy as np
+
+img = cv2.imread('input.png')
+height, width, channels = img.shape
+
+pixel_size = 50
+
+# Pad image
+pad_x = (pixel_size - width % pixel_size) % pixel_size
+pad_y = (pixel_size - height % pixel_size) % pixel_size
+img = np.pad(img, ((0, pad_y), (0, pad_x), (0, 0)), mode='reflect')
+
+# Reshape image into blocks and compute average color of each block
+h, w, c = img.shape
+blocks = np.mean(img.reshape(h//pixel_size, pixel_size, -1, pixel_size, c), axis=(1, 3))
+
+# Repeat average color of each block to fill corresponding region in the image
+output = np.repeat(np.repeat(blocks, pixel_size, axis=1), pixel_size, axis=0)
+
+# Remove padding
+output = output[:height, :width].astype("uint8")
+
+cv2.imshow('Output', output)
+cv2.waitKey(0)
+
+np.cross
+https://stackoverflow.com/questions/39840030/distance-between-point-and-a-line-from-two-points
+Try using the norm function from numpy.linalg
+
+d = norm(np.cross(p2-p1, p1-p3))/norm(p2-p1)

@@ -1,0 +1,10 @@
+https://dev.to/alcatraz714/filtering-using-opencv-aca
+https://www.instrovate.com/2019/06/26/image-processing-series-3-noise-removal-from-image-using-python-opencv/
+https://www.geeksforgeeks.org/python-denoising-of-colored-images-using-opencv/
+https://soumyapatilblogs.medium.com/image-filtering-using-opencv-66b67e1bd968
+https://towardsdatascience.com/image-filters-in-python-26ee938e57d2
+https://www.bogotobogo.com/python/OpenCV_Python/python_opencv3_Image_Non-local_Means_Denoising_Algorithm_Noise_Reduction.php
+https://www.projectpro.io/recipes/remove-noise-from-images-opencv
+https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_filtering/py_filtering.html
+https://rsdharra.com/blog/lesson/9.html
+https://pythonexamples.org/python-opencv-image-filter-convolution-cv2-filter2d/
